@@ -652,7 +652,8 @@ begin
               Edits := [EDIT_TIME, EDIT_LEVEL];
 
              if (MSI_Scripts[i].Constant = SCRIPT_SUPERHEATER) then
-              edits := [EDIT_TIME, EDIT_LEVEL, EDIT_HEAT_SLOTS]
+              lists := [LIST_BAR, LIST_BANK]
+              edits := [EDIT_TIME, EDIT_LEVEL]
             else
               Edits := [EDIT_TIME, EDIT_LEVEL];
 
